@@ -161,6 +161,7 @@ delay(1000);
       Serial.println(Firebase.error());  
       return;
   }
+  
   Serial.print("pushed: /logs/");
   Serial.println(name);
   delay(1000);
